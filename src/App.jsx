@@ -2,11 +2,14 @@ import Stud from './Stud';
 import Car from './Car';
 import S from './Student';
 import T from "./Timer";
+import UseEffectExample from './UseEffectExample';
 
 
 function App() {
   return (
     <>
+      <UseEffectExample />
+      
       <h1>useState Hook - Timer</h1>
       <T />
 
